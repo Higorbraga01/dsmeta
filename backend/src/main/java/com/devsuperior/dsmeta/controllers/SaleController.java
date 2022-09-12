@@ -21,7 +21,7 @@ public class SaleController {
     }
 
     @GetMapping
-    public L\ist<Sale> findSales() {
+    public List<Sale> findSales() {
         return service.findSales();
     }
 }
